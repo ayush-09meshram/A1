@@ -84,7 +84,7 @@ background-size: 100% 16vh;
   flex-grow: 1;
  }
 .hero-image{
-  background-image: url(IMG/hiro.jpg);
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(IMG/hiro.jpg);
   display:flex;
   flex-flow: column-wrap;
   flex-grow: 1;
@@ -204,7 +204,7 @@ background-size: 100% 16vh;
         margin:auto;
         padding-top: 8vw;
         line-height: 300%;
-    background-image: url(IMG/url.jpg); /*https://media.giphy.com/media/l4KhWPNyLHiB3TjVe/giphy.gif*/
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(IMG/url.jpg); /*https://media.giphy.com/media/l4KhWPNyLHiB3TjVe/giphy.gif*/
     background-size: cover;
 }
 
@@ -302,13 +302,13 @@ align-self:center;
      text-align: center;
 }
 .container4 h1{
-    margin-top: 10%;
+    margin-top: 15%;
 }
 .container4 input{
-    margin-top: 10%;
+    margin-top: 15%;
 }
 .container4 textarea{
-    margin-top: 10%;
+    margin-top: 15%;
 }
 .lowbar{
   display: flex;
@@ -374,6 +374,7 @@ h1{
   border-radius: 10px;
   width:15%;
   font-size: 3vw;
+  font-family: 'Shadows Into Light', cursive;
   color: black;
   background-color: white;
   background-size:100% 100%;
@@ -384,6 +385,7 @@ h1{
 .low-bar {
 bottom: 0;
 background-color: darkblue;
+opacity: 0.8;
 display: flex;
 flex-direction: column;
 width: 100%;
@@ -396,7 +398,7 @@ margin-bottom: 0;
 .foot {
   color: white;
   flex: 1;
-  font-size: 3vw;
+  font-size: 2vw;
   padding-top: 18px;
   text-transform: uppercase;
   text-align: center;
@@ -411,6 +413,9 @@ justify-content: space-around;
   flex: 1;
   justify-content: space-around;
   text-align: center;
+}
+i{
+  color:white;
 }
 .links img {
   justify-content: space-around;
